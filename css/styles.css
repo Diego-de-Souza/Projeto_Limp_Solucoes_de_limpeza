@@ -1,4 +1,7 @@
 body{
+    position: relative;
+    margin-bottom: 15vh;
+    background-color: white;
     font-family: verdana;
 
 }*{
@@ -12,6 +15,7 @@ header, footer {
 }
 
 header {
+
     height: 10vh;
     background-color: #1f1f1f;
 }
@@ -38,6 +42,12 @@ header a:hover{
     background-color: #ddd;
     color: black;
     
+}
+
+.link-social-header{
+    width: 100%;
+    height: 2vh;
+    background-color: #458EB8;
 }
 
 .nav{
@@ -76,28 +86,65 @@ footer .redes-sociais{
     position: absolute;
     left: 75%;
     top: 35px;
-}
-
-section{
-    position: absolute;
-    left: 15%;
-    top:100px;
-}
-
-.home-slider{
-    position: absolute;
-    left:40%;
-    top: 150px;
+    
 }
 
 .compromisso{
     position: absolute;
-    left: 40%;
-    top: 250px;
+    top:410px;
+    width: 100%;
+    height: 15vh;
+    background-color: #165EA0;
+    
+}
+
+.compromisso h3{
+    margin-top: 30px;
+    text-align: center;
+}
+
+.compromisso h3{
+
+    text-align: center;
+}
+
+.compromisso h3{
+    color: white;
+    font-weight: normal;
 }
 
 .contato{
     position: absolute;
     left: 75%;
-    top: 275px;
+    top: 450px;
+    background-color: #00D4E1;
+    border:none;
+    color:white;
+    padding: 15px 32px;
+    text-align:center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.example-services{
+    width: 100%;
+    height: 60vh;
+    background-color: antiquewhite;
+    position:absolute;
+    top: 550px;
+}
+
+.example-services h2{
+    margin-top: 10px;
+    text-align: center;
+}
+.example-services p{
+    text-align: center;
+}
+
+.imagem-inicio img{
+    width: 100%;
+    height:50vh;
 }
