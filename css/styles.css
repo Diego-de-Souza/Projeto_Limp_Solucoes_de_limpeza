@@ -1,11 +1,5 @@
 body{
-/*
-    min-height:100vh;
-    display:flex;
-    flex-direction: column;
-*/
     font-family: verdana;
-
 }
 
 *{
@@ -59,10 +53,13 @@ footer h2{
     top:10%;
 }
 
+header a{
+    height: 10vh;
+}
+
 header a:hover{
     background-color: #ddd;
     color: black;
-    
 }
 
 .link-social-header{
@@ -73,7 +70,8 @@ header a:hover{
 
 .nav{
     position: absolute;
-    width: 100%;   
+    width: 100%;
+    height: 10vh;   
 }
 
 .nav a{
@@ -134,7 +132,7 @@ footer .redes-sociais{
     font-weight: normal;
 }
 
-.contato{
+.btn-custom{
     position: absolute;
     left: 75%;
     top: 450px;
@@ -147,22 +145,38 @@ footer .redes-sociais{
     display: inline-block;
     font-size: 16px;
     font-weight: bold;
+    box-shadow: 3px 3px #16548f;
+}
+
+.btn-custom:hover{
+    background-color: #00f2ff;
+    transition: 0.7s;
 }
 
 .example-services{
     width: 100%;
-    height: 10vh;
+    height: auto;
     background-color: white;
     position:absolute;
     top: 550px;
 }
 
-.example-services h2{
+.example-services h1{
     margin-top: 10px;
     text-align: center;
-}
-.example-services p{
+    color:#FF8718;
     text-align: center;
+}
+
+.service-box{
+    margin-top: 10px;
+}
+
+.center{
+    margin-left: auto;
+    margin-right: auto;
+    width:fit-content;
+    padding:10px;
 }
 
 .imagem-inicio img{
