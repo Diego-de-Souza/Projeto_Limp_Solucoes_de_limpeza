@@ -10,33 +10,38 @@
 </head>
 
 <body>
-    <header>
-        <a href="./index.html"><img width="190px" height="70px" src="./img/img-removebg-preview.png" alt="LOGO"></a>
-        <div class="nav">
-            <a href="./index.html">Home</a>
-            <a href="./sobrenos.html">Sobre nós</a>
-            <a href="./sobrenos.html">Serviços</a>
-            <a href="./cases.html">Cases</a>
-            <a href="./contato.html">Contato</a>
+    <header id="container-header">
+        <figure>
+            <img id="container-header__img" width="190px" height="70px" src="./img/img-removebg-preview.png" alt="LOGO">
+        </figure>
+        <div id="container-menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="sobrenos.html">Sobre nós</a></li>
+                <li><a href="servicos.html">Serviços</a></li>
+                <li><a href="cases.html">Cases</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
         </div>
-
     </header>
-    <section>
-        <div class="lado_esquerdo">Torne seu ambiente mais saudável!
-        </div>
-        <div class="fale">
-            <p class="entre">Entre em contado conosco</p>
-            <p>E-mail: xxxx@email.com</p>
-            <p>Telefone: (xx)00000-0000</p>
-            <div class="text-white">
-                <a class="btn btn-link text-light" href=""><i class="fab fa-facebook-f"></i></a>
-                <a class="btn btn-link text-light" href=""><i class="fab fa-twitter"></i></a>
-                <a class="btn btn-link text-light" href=""><i class="fab fa-linkedin-in"></i></a>
-                <a class="btn btn-link text-light" href=""><i class="fab fa-instagram"></i></a>
-                <a class="btn btn-link text-light" href=""><i class="fab fa-whatsapp"></i></a>
+    <main id="container-main">
+        <section>
+            <div class="lado_esquerdo">Torne seu ambiente mais saudável!
             </div>
-        </div>
-    </section>
+            <div class="fale">
+                <p class="entre">Entre em contado conosco</p>
+                <p>E-mail: xxxx@email.com</p>
+                <p>Telefone: (xx)00000-0000</p>
+                <div class="text-white">
+                    <a class="btn btn-link text-light" href=""><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-link text-light" href=""><i class="fab fa-twitter"></i></a>
+                    <a class="btn btn-link text-light" href=""><i class="fab fa-linkedin-in"></i></a>
+                    <a class="btn btn-link text-light" href=""><i class="fab fa-instagram"></i></a>
+                    <a class="btn btn-link text-light" href=""><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+        </section>
+    </main>
     <div class="container">
 
         <form action="#" method="post">
@@ -67,23 +72,29 @@
 
     </div>
 
-    <footer>
-        <h2>&copy; Limp Soluções.</h2>
-        <h3 class="titulo-info">Informações</h3>
-        <p class="informacoes">
-            (xx) xxxx-xxxx<br>
-            (xx) xxxxx-xxxx<br>
-            contato@limp.com.br<br>
-            Rua tal, 000 - Bairro tal<br>
-            Cidade tal, Estado tal
-        </p>
+    <footer id="container-footer">
+        <section id="container-footer__slogan">
+            <h2>&copy; Limp Soluções.</h2>
+        </section>
+        <section id="container-footer__contato">
+            <h3 class="titulo-info">Informações</h3>
+            <p class="informacoes">
+                (xx) xxxx-xxxx<br>
+                (xx) xxxxx-xxxx<br>
+                contato@limp.com.br<br>
+                Rua tal, 000 - Bairro tal<br>
+                Cidade tal, Estado tal
+            </p>
+        </section>
 
-        <h3 class="titulo-social">Redes Sociais</h3>
-        <p class="redes-sociais">
-            Instagram<br>
-            Linkedin<br>
-            Youtube
-        </p>
+        <section id="container-footer__redesSociais">
+            <h3 class="titulo-social">Redes Sociais</h3>
+            <p class="redes-sociais">
+                Instagram<br>
+                Linkedin<br>
+                Youtube
+            </p>
+        </section>
     </footer>
 
 </body>
