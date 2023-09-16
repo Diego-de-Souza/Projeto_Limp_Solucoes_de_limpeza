@@ -1,0 +1,78 @@
+@charset "UTF8";
+
+*{
+    /*zeramento de todas configurações padrão para margin e padding*/
+    margin: 0px;
+    padding: 0px;
+}
+
+#container-servicos {
+    /*configurações referentes a area do container principal de serviços*/
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    left: 0px;
+    right: 0px;
+    background-color: aqua;
+}
+
+#container-servicos > h1{
+    /*Configuração do titulo da area de serviços*/
+    width: 100%;
+    text-align: center;
+    font-size: 2em;
+    padding: 1em 0em;
+}
+
+#container-servicos__banners{
+    /*COnfiguração da area dos banners de serviço*/
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(6em, 4fr));
+    margin-top: 2em;
+    grid-column-gap: 1em;
+    grid-row-gap: 1em;
+}
+
+/*Configuração dos Banners
+    - configuração do involucro
+    - configuração do titulo
+    - configuração da imagem
+    - configuração do conteúdo textual
+*/
+.container-servicos__banners-conteudo{
+    /*Configuração referente aos banners de serviço e seu conteudo*/
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    border-radius: 1em;
+    box-shadow: 2px 2px 15px black;
+
+    background-color: chocolate;
+}
+
+.container-servicos__banners-conteudo > h2{
+    width: 100%;
+    text-align: center;
+    padding: 0.6em 0em ;
+    font-size: 1.5em;
+}
+.container-servicos__banners-conteudo > img {
+
+}
+.container-servicos__banners-conteudo__conteudoTextual {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 1em;
+    text-align: justify;
+}
+.container-servicos__banners-conteudo__conteudoTextual > p {
+    width: 100%;
+}
+
+#rodape_fake{
+    display: block;
+    width: 100%;
+    height: 100px;
+    background-color: black;
+}
