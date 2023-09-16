@@ -19,7 +19,7 @@ html, body{
     overflow: auto;
     padding-bottom: 15vh;
     background-color: rgb(168, 81, 81);
-    height: 200vh;
+    height: auto;
 }
 
 header, footer {
@@ -43,7 +43,7 @@ footer {
     position: relative;
     height: 15vh;
     background-color: #1f1f1f;
-    margin-top: -15vh;
+    margin-top:-15vh;
     clear:both;
 }
 
@@ -170,6 +170,22 @@ footer .redes-sociais{
 
 .service-box{
     margin-top: 10px;
+}
+
+.depoimentos{
+    position:absolute;
+    background-color: #074783;
+    height: auto;
+    width: 100%;
+    top:99vh;
+    margin-top: 10px;
+}
+
+.depoimentos h1{
+    color:white;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 10px;
 }
 
 .center{
