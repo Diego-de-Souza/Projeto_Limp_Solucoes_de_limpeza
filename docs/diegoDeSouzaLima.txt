@@ -9,4 +9,10 @@ Sprint 2
     + Criação do repositório do Projeto no gitHub;
     + Criação da pasta diário de bordo;
     +  Criação da pasta de script;
+    + Desenvolvimento do conteudo da página serviços;
+    + Correção do padrão (parcial, ainda não final);
+    + Criação da folha de estilo serviços, para primeira estilização da página de serviços;
+    + edição das imagens da página de serviços;
+    criação da pasta de imagens da página de serviço;
+    + no footer foi mudado o slogan da tag <h1></h1> para tag <span></span> seguindo o contexto do mesmo;
     

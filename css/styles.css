@@ -66,6 +66,10 @@ figure {
     bottom: 0px;
 }
 
+span{
+    font-size: 3em;
+}
+
 #container-footer__slogan {
     display: flex;
     width: 33%;
