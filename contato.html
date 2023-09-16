@@ -24,53 +24,41 @@
             </ul>
         </div>
     </header>
-    <main id="container-main">
-        <section>
-            <div class="lado_esquerdo">Torne seu ambiente mais saudável!
-            </div>
-            <div class="fale">
-                <p class="entre">Entre em contado conosco</p>
-                <p>E-mail: xxxx@email.com</p>
-                <p>Telefone: (xx)00000-0000</p>
-                <div class="text-white">
-                    <a class="btn btn-link text-light" href=""><i class="fab fa-facebook-f"></i></a>
-                    <a class="btn btn-link text-light" href=""><i class="fab fa-twitter"></i></a>
-                    <a class="btn btn-link text-light" href=""><i class="fab fa-linkedin-in"></i></a>
-                    <a class="btn btn-link text-light" href=""><i class="fab fa-instagram"></i></a>
-                    <a class="btn btn-link text-light" href=""><i class="fab fa-whatsapp"></i></a>
+     <main id="container-main">
+        
+        <div class="container">
+            <form class="formulario" method="post"> 
+                <p>Fale conosco</p>
+                
+                <div class="field">
+                    <label for="nome">Seu Nome:</label>
+                    <input type="text" id="nome" name="nome" placeholder="Digite seu nome*" required>
                 </div>
-            </div>
-        </section>
+                
+                <div class="field">
+                    <label for="telefone">Seu Telefone:</label>
+                    <input type="text" id="telefone" name="telefone" placeholder="Digite seu Telefone">
+                </div>
+        
+                <div class="field">
+                    <label for="email">Seu E-Mail:</label>
+                    <input type="email" id="email" name="email" placeholder="Digite seu E-Mail*" required>
+                </div>        
+                <div class="field radiobox">
+                    <span>Deseja receber nossas novidades?</span>
+                    <input type="radio" name="novidades" id="sim" value="sim" checked><label for="sim">Sim</label>
+                    <input type="radio" name="novidades" id="nao" value="nao"><label for="nao">Não</label>
+                </div>
+                <div class="field">
+                    <label for="mensagem">Sua mensagem:</label>
+                    <textarea name="mensagem" id="mensagem" placeholder="Mensagem*" required></textarea>
+                </div>
+        
+                <input type="submit" name="acao" value="Enviar">
+            </form>
+            
+        </div>
     </main>
-    <div class="container">
-
-        <form action="#" method="post">
-            <div>
-                <label for="nome">Nome:</label>
-                <input type="text" id="nome" placeholder="Digite seu nome" name="usuario_nome" required="true" />
-            </div>
-            <div>
-                <label for="email">E-mail:</label>
-                <input type="email" id="email" placeholder="Digite seu melhor e-mail" name="usuario_email"
-                    required="true" />
-            </div>
-            <div>
-                <label for="telefone">Telefone:</label>
-                <input type="email" id="telefone" placeholder="Digite seu telefone" name="usuario_telefone"
-                    required="true" />
-            </div>
-            <div>
-
-                <label for="msg">Mensagem:</label>
-                <textarea id="msg" name="usuario_msg" placeholder="Assunto da menssagem" required="true"></textarea>
-            </div>
-
-            <div class="button">
-                <button type="submit">Enviar sua mensagem</button>
-            </div>
-        </form>
-
-    </div>
 
     <footer id="container-footer">
         <section id="container-footer__slogan">
