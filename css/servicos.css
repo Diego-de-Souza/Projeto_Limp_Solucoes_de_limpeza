@@ -5,6 +5,10 @@
     margin: 0px;
     padding: 0px;
 }
+main {
+    display: flex;
+    margin-top: 75px;
+}
 
 #container-servicos {
     /*configurações referentes a area do container principal de serviços*/
@@ -24,29 +28,34 @@
     padding: 1em 0em;
 }
 
-#container-servicos__banners{
-    /*COnfiguração da area dos banners de serviço*/
-    display: grid;
-    grid-template-columns: repeat(auto-fill,minmax(6em, 4fr));
-    margin-top: 2em;
-    grid-column-gap: 1em;
-    grid-row-gap: 1em;
-}
-
 /*Configuração dos Banners
     - configuração do involucro
     - configuração do titulo
     - configuração da imagem
     - configuração do conteúdo textual
 */
+#container-servicos__banners{
+    /*COnfiguração da area dos banners de serviço*/
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    margin-top: 2em;
+    grid-column-gap: 1em;
+    grid-row-gap: 1em;
+    width: 95%;
+
+}
+
+.teste{
+    background-color: blue;
+}
+
 .container-servicos__banners-conteudo{
     /*Configuração referente aos banners de serviço e seu conteudo*/
     display: flex;
     flex-direction: column;
-    width: 30%;
     border-radius: 1em;
     box-shadow: 2px 2px 15px black;
-
+    width: auto;
     background-color: chocolate;
 }
 
