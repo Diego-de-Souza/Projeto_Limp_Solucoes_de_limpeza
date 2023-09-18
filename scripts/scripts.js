@@ -1,13 +1,13 @@
-let imagem1 = loadimage = "./img/img-saiba-mais-1.png";
-let imagem2 = loadimage = "./img/img-saiba-mais-2.png";
-let imagem3 = loadimage = "./img/img-saiba-mais-3.png";
-let imagem4 = loadimage = "./img/img-saiba-mais-4.png";
-let imagem5 = loadimage = "./img/img-saiba-mais-5.png";
-let imagem6 = loadimage = "./img/img-saiba-mais-6.png";
-let imagem7 = loadimage = "./img/img-saiba-mais-7.png";
-let imagem8 = loadimage = "./img/img-saiba-mais-8.png";
-let imagem9 = loadimage = "./img/img-saiba-mais-9.png";
-let imagem10 = loadimage = "./img/img-saiba-mais-10.png";
+let imagem1 = loadimage = "./img/img-cases/img-saiba-mais-1.png";
+let imagem2 = loadimage = "./img/img-cases/img-saiba-mais-2.png";
+let imagem3 = loadimage = "./img/img-cases/img-saiba-mais-3.png";
+let imagem4 = loadimage = "./img/img-cases/img-saiba-mais-4.png";
+let imagem5 = loadimage = "./img/img-cases/img-saiba-mais-5.png";
+let imagem6 = loadimage = "./img/img-cases/img-saiba-mais-6.png";
+let imagem7 = loadimage = "./img/img-cases/img-saiba-mais-7.png";
+let imagem8 = loadimage = "./img/img-cases/img-saiba-mais-8.png";
+let imagem9 = loadimage = "./img/img-cases/img-saiba-mais-9.png";
+let imagem10 = loadimage = "./img/img-cases/img-saiba-mais-10.png";
 
 
 var im = 0;

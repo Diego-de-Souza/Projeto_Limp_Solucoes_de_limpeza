@@ -94,3 +94,15 @@ figure {
     height: 43px;
     padding: auto;
 }
+
+#teste-body-cases {
+    background-color: beige;
+}
+#teste-body-cases-empresa-a, 
+#teste-body-cases-empresa-b,   
+#teste-body-cases-empresa-c,
+#teste-body-cases-empresa-d,
+#teste-body-cases-empresa-e {
+    background-color: blanchedalmond;
+}   
+
