@@ -1,3 +1,4 @@
+/* Autor Itamar Maximo De Sena */
 let imagem1 = loadimage = "./img/img-cases/img-saiba-mais-1.png";
 let imagem2 = loadimage = "./img/img-cases/img-saiba-mais-2.png";
 let imagem3 = loadimage = "./img/img-cases/img-saiba-mais-3.png";

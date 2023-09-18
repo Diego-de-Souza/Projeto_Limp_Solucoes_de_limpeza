@@ -82,19 +82,20 @@ figure {
     display: flex;
     width: 33%;
 }
-
-
+/* ------------------------------------corpo [Main]------------------------------------------ */
+/* Csaes-main H1 */
 #cases-main {
     margin-top: 1rem;
     margin-inline: 5rem;
 }
-
+/* Imagem texto linha cases */
 #img-texto-linha-01 {
     width: 180px;
     height: 43px;
     padding: auto;
 }
 
+/* backgroud-color-cases */
 #teste-body-cases {
     background-color: beige;
 }
