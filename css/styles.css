@@ -1,10 +1,12 @@
+@charset "UTF-8";
+
 body{
     font-family: verdana;
 }
 
-*{
-    margin:0;
-    padding:0;
+* {
+    margin: 0px;
+    padding: 0px;
 }
 
 html, body{
@@ -15,20 +17,15 @@ html, body{
     min-height: 100%;
 }
 
+.index-height{
+    height: 194vh;
+}
+
 #main{
     overflow: auto;
     padding-bottom: 15vh;
     background-color: rgb(168, 81, 81);
     
-}
-
-.index-height{
-    height: 194vh;
-}
-
-header, footer {
-    width: 100%;
-    color:white;
 }
 
 header {
@@ -247,3 +244,148 @@ footer .redes-sociais{
 .instagram-icon{
     right:13%;
 }
+
+/*Configuração do header (cabeçalho)*/
+#container-header {
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    top: 0px;
+    width: 100vw;
+    height: 10vh;
+    background-color: #1f1f1f;;
+}
+figure {
+    display: flex;
+    width: 30%;
+    justify-content: center;
+}
+#container-header__img {
+    display: block;
+}
+
+#container-menu {
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+}
+
+#container-menu > ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+#container-menu > ul > li {
+    display: flex;
+    padding: 2em;
+}
+
+#container-menu > ul >li > a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#container-menu {
+    text-decoration: none;
+}
+
+#container-main {
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+    height: 100vh;
+}
+
+#container-footer {
+    display: flex;
+    flex-direction: row;
+    background-color: #1f1f1f;
+    color: #fff;
+    padding: 1.5em 0em;
+    bottom: 0px;
+}
+
+#container-footer__slogan {
+    display: flex;
+    width: 33%;
+    align-items: center;
+    justify-content: center;
+}
+
+#container-footer__contato {
+    display: flex;
+    width: 33%;
+}
+
+#container-footer__redesSociais {
+    display: flex;
+    width: 33%;
+}
+
+/*Formulário de contato*/
+.formulario{
+    width: 400px;
+    padding: 30px;
+    border:1px solid #ccc;
+}
+.formulario p{
+    width: 100%;
+    font-size: 1.5em;
+}
+.field{
+    width: 100%;
+    margin: 15px 0;
+}
+.field label, 
+.field span{
+    padding-left: 10px;
+    font-size: 1.1em;
+    display: block;
+    width: 100%;
+}
+.radiobox label{
+    width: auto;
+    display: inline-block;
+}
+input[type=text],
+input[type=email],
+textarea{
+    width: 100%;
+    padding-left: 10px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+input#nao{
+    margin-left: 30px;
+}
+textarea{
+    line-height: 20px;
+    padding: 10px;
+    height: 90px;
+    resize: none;
+}
+input[type=submit]{
+    display: block;
+    background-color: #ccc;
+    height: 35px;
+    border: none;
+    outline: 0;
+    cursor: pointer;
+    width: 100px;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 8px;
+}
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    }

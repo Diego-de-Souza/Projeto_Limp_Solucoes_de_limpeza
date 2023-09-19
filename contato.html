@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Contato</title>
+</head>
+
+<body>
+    <header id="container-header">
+        <figure>
+            <img id="container-header__img" width="190px" height="70px" src="./img/img-removebg-preview.png" alt="LOGO">
+        </figure>
+        <div id="container-menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="sobrenos.html">Sobre nós</a></li>
+                <li><a href="servicos.html">Serviços</a></li>
+                <li><a href="cases.html">Cases</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </div>
+    </header>
+     <main id="container-main">
+        
+        <div class="container">
+            <form class="formulario" method="post"> 
+                <p>Fale conosco</p>
+                
+                <div class="field">
+                    <label for="nome">Seu Nome:</label>
+                    <input type="text" id="nome" name="nome" placeholder="Digite seu nome*" required>
+                </div>
+                
+                <div class="field">
+                    <label for="telefone">Seu Telefone:</label>
+                    <input type="text" id="telefone" name="telefone" placeholder="Digite seu Telefone">
+                </div>
+        
+                <div class="field">
+                    <label for="email">Seu E-Mail:</label>
+                    <input type="email" id="email" name="email" placeholder="Digite seu E-Mail*" required>
+                </div>        
+                <div class="field radiobox">
+                    <span>Deseja receber nossas novidades?</span>
+                    <input type="radio" name="novidades" id="sim" value="sim" checked><label for="sim">Sim</label>
+                    <input type="radio" name="novidades" id="nao" value="nao"><label for="nao">Não</label>
+                </div>
+                <div class="field">
+                    <label for="mensagem">Sua mensagem:</label>
+                    <textarea name="mensagem" id="mensagem" placeholder="Mensagem*" required></textarea>
+                </div>
+        
+                <input type="submit" name="acao" value="Enviar">
+            </form>
+            
+        </div>
+    </main>
+
+    <footer id="container-footer">
+        <section id="container-footer__slogan">
+            <h2>&copy; Limp Soluções.</h2>
+        </section>
+        <section id="container-footer__contato">
+            <h3 class="titulo-info">Informações</h3>
+            <p class="informacoes">
+                (xx) xxxx-xxxx<br>
+                (xx) xxxxx-xxxx<br>
+                contato@limp.com.br<br>
+                Rua tal, 000 - Bairro tal<br>
+                Cidade tal, Estado tal
+            </p>
+        </section>
+
+        <section id="container-footer__redesSociais">
+            <h3 class="titulo-social">Redes Sociais</h3>
+            <p class="redes-sociais">
+                Instagram<br>
+                Linkedin<br>
+                Youtube
+            </p>
+        </section>
+    </footer>
+
+</body>
+
+</html>
