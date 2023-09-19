@@ -1,7 +1,4 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 094199379bd2b64411dd70dd77998541ad5f7387
+
 @charset "UTF-8";
 
 body{
@@ -22,7 +19,7 @@ html, body{
 }
 
 .index-height{
-    height: 194vh;
+    height: 195vh;
 }
 
 #main{
@@ -36,6 +33,7 @@ header {
     position: absolute;
     height: 10vh;
     background-color: #1f1f1f;
+    width: 100%;
 }
 
 header img{
@@ -50,12 +48,19 @@ footer {
     background-color: #1f1f1f;
     margin-top:-15vh;
     clear:both;
+    color: white;
+    text-decoration: none;
+}
+
+li a{
+    text-decoration: none;
 }
 
 footer h2{
     position: absolute;
     left:15%;
     top:10%;
+    color: white;
 }
 
 header a{
@@ -393,8 +398,3 @@ input[type=submit]{
     align-items: center;
     padding: 0;
     }
-<<<<<<< HEAD
-=======
->>>>>>> fec6ab5c1153286399f3cfa5506c232966b0c918
-=======
->>>>>>> 094199379bd2b64411dd70dd77998541ad5f7387
