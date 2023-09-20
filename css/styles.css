@@ -253,6 +253,7 @@ footer .redes-sociais{
 }
 
 /*Configuração do header (cabeçalho)*/
+
 #container-header {
     display: flex;
     flex-direction: row;
@@ -331,6 +332,7 @@ figure {
 }
 
 /*Formulário de contato*/
+
 .formulario{
     width: 400px;
     padding: 30px;
@@ -396,3 +398,5 @@ input[type=submit]{
     align-items: center;
     padding: 0;
     }
+    
+
