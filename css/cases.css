@@ -84,13 +84,28 @@ figure {
 }
 
 
+/* ------------------------------------corpo [Main]------------------------------------------ */
+/*Autor Itamar Maximo De Sena*/
+/* Csaes-main H1 */
 #cases-main {
     margin-top: 1rem;
     margin-inline: 5rem;
 }
-
+/* Imagem texto linha cases */
 #img-texto-linha-01 {
-    width: 100px;
-    height: 100px;
+    width: 180px;
+    height: 43px;
     padding: auto;
 }
+
+/* backgroud-color-cases */
+#teste-body-cases {
+    background-color: beige;
+}
+#teste-body-cases-empresa-a, 
+#teste-body-cases-empresa-b,   
+#teste-body-cases-empresa-c,
+#teste-body-cases-empresa-d,
+#teste-body-cases-empresa-e {
+    background-color: blanchedalmond;
+}   
