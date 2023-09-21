@@ -50,12 +50,8 @@ figure {
     text-decoration: none;
 }
 
-#container-main {
-    display: flex;
-    flex-direction: column;
-    margin-top: 90px;
-    height: 100vh;
-}
+
+
 
 #container-footer {
     display: flex;
@@ -90,6 +86,7 @@ figure {
 #cases-main {
     margin-top: 1rem;
     margin-inline: 5rem;
+    color: #fff;
 }
 /* Imagem texto linha cases */
 #img-texto-linha-01 {
@@ -98,14 +95,55 @@ figure {
     padding: auto;
 }
 
-/* backgroud-color-cases */
-#teste-body-cases {
+#container-main-001 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 90px;
+    height: 100%;
+    
+    background-color: rgb(54, 118, 161);
+}
+
+#container-main-002,
+#container-main-003,
+#container-main-004,
+#container-main-005,
+#container-main-006 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 90px;
+    height: 100vh;
+    background-color: rgb(54, 118, 161);
+}
+
+#container-main-01 {
+    border: 3px solid rgb(66, 84, 85);
+    margin: 0.7rem;
+    padding: 0.2rem;
     background-color: beige;
 }
-#teste-body-cases-empresa-a, 
+
+#container-main-a, 
+#container-main-b,
+#container-main-c,
+#container-main-d,
+#container-main-e {
+    border: 3px solid rgb(66, 84, 85);
+    margin: 0.7rem;
+    padding: 0.2rem;
+    background-color: beige;
+}
+
+
+
+/* backgroud-color-cases */
+/*#teste-body-cases {
+    background-color: beige;
+}*/
+/*#teste-body-cases-empresa-a, 
 #teste-body-cases-empresa-b,   
 #teste-body-cases-empresa-c,
 #teste-body-cases-empresa-d,
 #teste-body-cases-empresa-e {
     background-color: blanchedalmond;
-}   
+} */  
