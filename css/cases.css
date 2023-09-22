@@ -413,12 +413,17 @@ input[type=submit]{
     height: 40px;
     padding: auto;
     }
+
+    #container-main-top {
+        margin-left: 15rem;
+
+    }
     
     #container-main-001 {
         
     display: flex;
     flex-direction: column;
-    margin-top: 90px;
+    margin-top: 80px;
     height: 100%;
     background-color: rgb(54, 118, 161);
     }
@@ -430,14 +435,17 @@ input[type=submit]{
     #container-main-006 {
     display: flex;
     flex-direction: column;
-    margin-top: 90px;
+    margin-top: 80px;
     height: 100%;
     background-color: rgb(54, 118, 161);
     }
     
     #container-main-01 {
     border: 3px solid rgb(66, 84, 85);
-    margin: 0.7rem;
+    border-radius: 1rem;
+    margin: 0.3rem;
+    margin-left: 15rem;
+    margin-right: 15rem;
     padding: 0.2rem;
     background-color: beige;
     height: 7rem;
@@ -449,10 +457,30 @@ input[type=submit]{
     #container-main-d,
     #container-main-e {
     border: 3px solid rgb(66, 84, 85);
-    margin: 0.7rem;
+    border-radius: 1rem;
+    margin: 0.3rem;
+    margin-left: 15rem;
+    margin-right: 15rem;
     padding: 0.2rem;
     background-color: beige;
     }
+
+    #cases-main-linha-titulo-01 {
+        font-size: 20px;
+    }
+
+    #cases-main-linha-texto-01 {
+        font-size: 17px;
+    }
+
+   #sbm-a, 
+   #sbm-b,
+   #sbm-c,
+   #sbm-d,
+   #sbm-e  {
+    
+   margin: 0.2rem;
+   }
     
    
     
