@@ -399,7 +399,7 @@ input[type=submit]{
     padding: 0;
     }
     
-/* ------------------------------------corpo [Main]------------------------------------------ */
+/* ------------------------------------corpo <Main>------------------------------------------ */
 /*Autor Itamar Maximo De Sena*/
 /* Csaes-main H1 */
 #cases-main {
@@ -482,16 +482,6 @@ input[type=submit]{
    margin: 0.2rem;
    }
     
-   
+/* ------------------------------------corpo </Main>----------------------------------------- */   
     
-    /* backgroud-color-cases */
-    /*#teste-body-cases {
-    background-color: beige;
-    }*/
-    /*#teste-body-cases-empresa-a, 
-    #teste-body-cases-empresa-b, 
-    #teste-body-cases-empresa-c,
-    #teste-body-cases-empresa-d,
-    #teste-body-cases-empresa-e {
-    background-color: blanchedalmond;
-    } */ 
+ 
