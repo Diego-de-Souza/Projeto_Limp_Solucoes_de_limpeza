@@ -1,0 +1,21 @@
+Diario de bordo
+
+Sprint 1
+    + Participação da concepção da ideia do site;
+    + Utilização da ferramenta Figma para construção do layout do site;
+    + Pesquisa de algumas páginas que serviram como base para o layout.
+    
+Sprint 2
+    + Criação da página index.html e do arquivo styles.css;
+    + Criação do header, navbar e footer iniciais do projeto;
+    + Desenvolvimento e estilização da página index.html;
+
+Sprint 3
+    + Criação do general-styles.css para organização dos estios do header, navbar, footer, e outros estilos padrões do projeto.
+    + Criação do index.css para organização individual do estilo da página;
+    + Criação da pasta views para armazenamento das páginas;
+    + Criação do test.html para servir como base para a reestruturação das páginas de forma mais organizada;
+    + Criação das pastas general-images e index-images para organização das imagens;
+    + Reestruturação geral do header, navbar e footer;
+    + Reestruturação geral da página index.html.
+    
