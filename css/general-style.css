@@ -1,0 +1,181 @@
+/*   
+#========Color palette========#
+#1f1f1f - Background header/footer
+#458EB8 - Header top piece
+black - Header hover text color
+white - Header and footer text
+#00D4E1 - Button color
+#16548f - Button box shadow
+#00f2ff - Button hover color
+#FF8718 - Contrast title color
+*/
+
+/*General structure*/
+
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    height: 100%;
+}
+
+body{
+    font-family: verdana;
+}
+
+#container{
+    min-height: 100%;
+}
+
+#main{
+    overflow: auto;
+    padding-top:120px;
+    padding-bottom: 145px;
+    background-color: rgb(133, 65, 65);
+}
+
+li, a:link, a:visited{
+    text-decoration: none!important;
+    list-style: none;
+    color:white;
+    padding: 0;
+    margin: 0;
+}
+
+/*Header style*/
+
+header {
+    position: absolute;
+    height: 120px;
+    background-color: #1f1f1f;
+    width: 100%;
+}
+
+.logo{
+    position: absolute;
+    left: 15%;
+    top:32px;
+}
+
+header a{
+    height: 10vh;
+}
+
+header a:hover{
+    background-color: #458EB8;
+    color: black;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.header-top-piece{
+    width: 100%;
+    height: 20px;
+    background-color: #458EB8;
+}
+
+.header-text{
+    position:absolute;
+    top:0;
+    font-size:90%;
+    color: white;
+    
+}
+
+.icon-config{
+    position: absolute;
+    margin-top: 3px;
+    height: 15px;
+    width: 15px;
+}
+
+.phone-icon{
+    margin-left: 15%;  
+}
+
+.phone-number{
+    margin-left: 16.5%;
+}
+
+.whats-icon{
+    margin-left: 25%;
+}
+
+.whats-number{
+
+    margin-left: 26.5%;
+}
+
+.linkedin-icon{
+    right:15%;
+}
+
+.instagram-icon{
+    right:13%;
+}
+
+/*Navbar style*/
+
+.nav{
+    position: absolute;
+    width: auto;
+    right: 15%;
+}
+
+.nav a{
+    position: relative;
+    top: 40px;
+    color:white;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+/*Footer style*/
+footer {
+    position: relative;
+    height: 145px;
+    background-color: #1f1f1f;
+    margin-top: -145px;
+    clear:both;
+    color: white;
+    text-decoration: none;
+}
+
+footer h2{
+    position: absolute;
+    left:15%;
+    top:10%;
+    color: white;
+}
+
+.info, .info-text, .social, .social-text{
+    position: absolute;
+}
+
+.info, .info-text{
+ left:45%;
+}
+
+.info{
+    top: 10px;
+}
+
+.info-text{
+    top: 35px;
+}
+
+.social, .social-text{
+    left: 75%;
+}
+
+.social{
+    top: 10px;
+}
+
+.social-text{
+    top: 35px;
+}
