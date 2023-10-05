@@ -42,13 +42,19 @@ body{
 }
 
 li, a:link, a:visited{
-    text-decoration: none!important;
+    text-decoration: none;
     list-style: none;
     color:white;
     padding: 0;
     margin: 0;
 }
 
+.limited-box{
+    width: 300px;
+    height: fit-content;
+    padding-left: 10px;
+    padding-right: 10px;
+}
 /*Header style*/
 
 header {
@@ -139,45 +145,19 @@ header {
 /*Footer style*/
 footer {
     position: relative;
-    height: 145px;
+    height: fit-content;
     background-color: #1f1f1f;
     margin-top: -145px;
     clear:both;
     color: white;
     text-decoration: none;
+    padding-top: 13px;
+    padding-bottom: 14px;
 }
 
-footer h2{
-    position: absolute;
-    left:15%;
-    top:10%;
-    color: white;
-}
-
-.info, .info-text, .social, .social-text{
-    position: absolute;
-}
-
-.info, .info-text{
- left:45%;
-}
-
-.info{
-    top: 10px;
-}
-
-.info-text{
-    top: 35px;
-}
-
-.social, .social-text{
-    left: 75%;
-}
-
-.social{
-    top: 10px;
-}
-
-.social-text{
-    top: 35px;
+.footer-content{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 10%;
+    margin-right: 10%;
 }

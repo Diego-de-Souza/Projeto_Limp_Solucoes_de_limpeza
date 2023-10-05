@@ -37,7 +37,6 @@
     #container-main-006 {
     display: flex;
     flex-direction: column;
-    margin-top: 80px;
     height: 100%;
     background-color: rgb(54, 118, 161);
     }
