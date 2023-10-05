@@ -117,13 +117,15 @@ main {
 
 #container-vantagens__conteudo-img {
     display: flex;
+    align-items: center;
+    justify-content: center;
     width: 30%;
-    
 }
 
 #container-vantagens__conteudo-img__produtos {
     display: block;
     width: 100%;
+    height: 40%;
 }
 
 #container_vantagens__artigo {
@@ -164,6 +166,7 @@ main {
     height: 55vh;
     justify-content: center;
     align-items: center;
+    padding-bottom: 9rem;
     background-color: rgba(49, 49, 49, 0.629);
 }
 
@@ -182,13 +185,60 @@ main {
     text-decoration: none;
     color: #fff;
     border-radius: 3em;
-    margin-top: 14em;
+    margin-top: 30rem;
 
     background-color:#074783;
 }
 #rodape_fake{
     display: block;
     width: 100%;
-    height: 100px;
+    height: 400px;
     background-color: black;
+}
+
+/*Configuração  da responsividade
+Na responsividade iremos levar em consideração somente 2 formatos
+com max 769px e com max 480px
+*/
+@media screen and (max-width: 769px){
+    /*configurção do container serviços para 769px*/
+    .limpeza-Urbana, .limpezaIndustrial, .limpezaLaboratorial, .limpezaResidencial, .limpezaResidencialExterna, .limpezapiscina, .limpezaCondominial{
+        height: 24vh;
+    }
+
+    .limpeza-Urbana:hover, .limpezaIndustrial:hover, .limpezaLaboratorial:hover, .limpezaResidencial:hover, .limpezaResidencialExterna:hover, .limpezapiscina:hover, .limpezaCondominial:hover{
+        height: 24vh;
+        transition: all 1s linear;
+    }
+    .container-servicos__banners-conteudo > img {
+        height: 14em;   
+    }
+    /*Configuração da area vantagens para 769px*/
+    #container-vantagens__conteudo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #container-vantagens__conteudo-img {
+        width: 100%;
+    }
+    
+    #container-vantagens__conteudo-img__produtos {
+        display: block;
+        width: 60%;
+        height: 40%;
+    }
+    
+    #container_vantagens__artigo {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        padding: 1em;
+    }
+}
+
+@media screen and (max-width: 480px){
+    /*Configuração do container serviços para 480px*/
+
 }

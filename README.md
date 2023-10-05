@@ -38,3 +38,13 @@ O projeto é dividido em sprints, cada sprint é uma fase do projeto e está pla
             + Footer;
 
 
+### <font color="OrangeRed">Sprint 3</font>
+    Desenvolvimento
+        - Estilização das 5 telas criadas anteriormente em HTML.
+        - Implementar um design com a manipulação do modelo de caixa de elementos, além de tamanhos e cores das fontes.
+        - Tentar implementar o uso de flex-box em ao menos uma das telas
+    Organização
+        - Uso do github para gestão do projeto
+        - Uso do Discord para comunicação da equipe.
+    Ao final da sprint
+        - O projeto deve apresentar um design intuitivo, claro e objetivo, pensando na experiência do usuario.
