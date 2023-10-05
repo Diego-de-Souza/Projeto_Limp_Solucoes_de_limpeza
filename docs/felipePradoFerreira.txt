@@ -8,7 +8,7 @@ Sprint 1
 Sprint 2
     + Criação da página index.html e do arquivo styles.css;
     + Criação do header, navbar e footer iniciais do projeto;
-    + Desenvolvimento e estilização da página index.html;
+    + Desenvolvimento e estilização da página index.html.
 
 Sprint 3
     + Criação do general-styles.css para organização dos estios do header, navbar, footer, e outros estilos padrões do projeto.
@@ -17,5 +17,6 @@ Sprint 3
     + Criação do test.html para servir como base para a reestruturação das páginas de forma mais organizada;
     + Criação das pastas general-images e index-images para organização das imagens;
     + Reestruturação geral do header, navbar e footer;
-    + Reestruturação geral da página index.html.
-    
+    + Reestruturação geral da página index.html;
+    + Correções no sobrenos.html para adaptação do novo header e footer;
+    + Criação do index-scripts.js.
