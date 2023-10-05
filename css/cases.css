@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
     
 /* ------------------------------------corpo <Main>------------------------------------------ */
@@ -87,3 +88,93 @@
 /* ------------------------------------corpo </Main>----------------------------------------- */   
     
  
+=======
+
+    
+/* ------------------------------------corpo <Main>------------------------------------------ */
+/*Autor Itamar Maximo De Sena*/
+/* Csaes-main H1 */
+#cases-main {
+    margin-top:126px;
+    margin-inline: 4rem;
+    color: #fff;
+    }
+    /* Imagem texto linha cases */
+    #img-texto-linha-01 {
+    width: 100px;
+    height: 30px;
+    padding: 2rem;
+    }
+
+    #container-main-top {
+        margin-left: 16rem;
+        padding: 1rem;
+
+    }
+    
+    #container-main-001 {
+        
+    display: flex;
+    flex-direction: column;
+    
+    height: 108%;
+    background-color: rgb(54, 118, 161);
+    }
+    
+    #container-main-002,
+    #container-main-003,
+    #container-main-004,
+    #container-main-005,
+    #container-main-006 {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background-color: rgb(54, 118, 161);
+    }
+    
+    #container-main-01 {
+    border: 3px solid rgb(66, 84, 85);
+    border-radius: 1rem;
+    margin: 0.3rem;
+    margin-left: 15rem;
+    margin-right: 15rem;
+    padding: 0.2rem;
+    background-color: beige;
+    height: 7rem;
+    }
+    
+    #container-main-a, 
+    #container-main-b,
+    #container-main-c,
+    #container-main-d,
+    #container-main-e {
+    border: 3px solid rgb(66, 84, 85);
+    border-radius: 1rem;
+    margin: 0.3rem;
+    margin-left: 15rem;
+    margin-right: 15rem;
+    padding: 0.2rem;
+    background-color: beige;
+    }
+
+    #cases-main-linha-titulo-01 {
+        font-size: 20px;
+    }
+
+    #cases-main-linha-texto-01 {
+        font-size: 17px;
+    }
+
+   #sbm-a, 
+   #sbm-b,
+   #sbm-c,
+   #sbm-d,
+   #sbm-e  {
+    
+   margin: 0.2rem;
+   }
+    
+/* ------------------------------------corpo </Main>----------------------------------------- */   
+    
+ 
+>>>>>>> cf53b1521deca12a2acabdb4e4b945133981b7c5
