@@ -1,5 +1,3 @@
-
-    
 /* ------------------------------------corpo <Main>------------------------------------------ */
 /*Autor Itamar Maximo De Sena*/
 /* Csaes-main H1 */
@@ -25,7 +23,7 @@
         
     display: flex;
     flex-direction: column;
-    
+    /*margin-top: 80px;*/
     height: 108%;
     background-color: rgb(54, 118, 161);
     }
@@ -37,6 +35,7 @@
     #container-main-006 {
     display: flex;
     flex-direction: column;
+    margin-top: 80px;
     height: 100%;
     background-color: rgb(54, 118, 161);
     }
@@ -84,5 +83,3 @@
    }
     
 /* ------------------------------------corpo </Main>----------------------------------------- */   
-    
- 
