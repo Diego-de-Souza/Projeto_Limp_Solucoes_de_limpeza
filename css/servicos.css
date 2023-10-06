@@ -67,8 +67,7 @@ main {
 }
 
 .limpeza-Urbana:hover, .limpezaIndustrial:hover, .limpezaLaboratorial:hover, .limpezaResidencial:hover, .limpezaResidencialExterna:hover, .limpezapiscina:hover, .limpezaCondominial:hover{
-    height: auto;
-    transition: all 1s linear;
+    cursor: pointer;
 }
 
 .container-servicos__banners-conteudo > h2{
@@ -206,14 +205,17 @@ com max 769px e com max 480px
         height: 24vh;
     }
 
-    .limpeza-Urbana:hover, .limpezaIndustrial:hover, .limpezaLaboratorial:hover, .limpezaResidencial:hover, .limpezaResidencialExterna:hover, .limpezapiscina:hover, .limpezaCondominial:hover{
-        height: 24vh;
-        transition: all 1s linear;
-    }
     .container-servicos__banners-conteudo > img {
         height: 14em;   
+        background-color: #FF8718;
     }
     /*Configuração da area vantagens para 769px*/
+    #container-vantagens > h2{
+        font-size: 2rem;
+    }
+    #container-publico > h2 {
+        font-size: 2rem;
+    }
     #container-vantagens__conteudo {
         display: flex;
         flex-direction: column;
@@ -226,8 +228,8 @@ com max 769px e com max 480px
     
     #container-vantagens__conteudo-img__produtos {
         display: block;
-        width: 60%;
-        height: 40%;
+        width: 50%;
+        height: 30%;
     }
     
     #container_vantagens__artigo {
@@ -240,5 +242,32 @@ com max 769px e com max 480px
 
 @media screen and (max-width: 480px){
     /*Configuração do container serviços para 480px*/
+    #container-vantagens > h2{
+        font-size: 2rem;
+    }
+    #container_vantagens__artigo > p {
+        font-size: 1.2em;
+    }
+    #container-publico > h2 {
+        font-size: 2rem;
+    }
+    #container-publico__conteudo {
+        height: auto;
+        padding: 2em 0 2em 0    ;
+    }
+    #container-publico__conteudo > p {
+        font-size: 1.2em;
+        text-align: justify;
+    }
+    #container-publico__conteudo {
+        height: 38rem;
+    }
+    #container-publico__btn-contato{
+        padding: 0.5em 1.5em;
+        text-decoration: none;
+        color: #fff;
+        border-radius: 3em;
+        margin-top: 40rem;
 
+    }
 }
