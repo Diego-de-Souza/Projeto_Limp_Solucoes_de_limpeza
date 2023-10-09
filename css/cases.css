@@ -73,6 +73,8 @@
 
     #container-main-01 img{      
         max-width: 16rem;
+        width:100%;
+        margin-right: 170px;
         border: 1px solid black; /*Temporário, remover depois que as imagens forem escolhidas.*/
         border-radius: 20px;
     }

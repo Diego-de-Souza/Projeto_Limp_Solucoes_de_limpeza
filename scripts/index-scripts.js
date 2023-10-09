@@ -2,13 +2,13 @@
 //Example services boxes
 const exampleServices = [{
     title: "Serviço 1",
-    description: "Descrição do serviço 1"
+    description: "Descrição do serviço 1 ... ... ... ... ..."
 },{
     title: "Serviço 2",
-    description: "Descrição do serviço 2"
+    description: "Descrição do serviço 2 ... ... ... ... ..."
 },{
     title: "Serviço 3",
-    description: "Descrição do serviço 3"
+    description: "Descrição do serviço 3 ... ... ... ... ..."
 }]
 for(let i = 0; i < exampleServices.length; i++){
     //creating elements
@@ -32,15 +32,15 @@ for(let i = 0; i < exampleServices.length; i++){
 const clientDepositions=[{
     photo: "",
     title: 'Cliente 1',
-    depo: 'Deposição 1'
+    depo: 'Deposição 1 ... ... ... ... ... ... ... ... ... ...'
 },{
     photo: "",
     title: 'Cliente 2',
-    depo: 'Deposição 2'
+    depo: 'Deposição 2 ... ... ... ... ... ... ... ... ... ...'
 },{
     photo: "",
     title: 'Cliente 3',
-    depo: 'Deposição 3'
+    depo: 'Deposição 3 ... ... ... ... ... ... ... ... ... ...'
 }]
 for(let i = 0; i < clientDepositions.length; i++){
     //creating elements
@@ -49,7 +49,7 @@ for(let i = 0; i < clientDepositions.length; i++){
     deposition.innerHTML=
     `
     <div class="depositions">
-        <img class="generic-client-img" src="/img/index-images/generic-client.png" alt="generic client">
+    <img class="generic-client-img" src="/img/index-images/generic-client.png" alt="generic client">
         <h1>${clientDepositions[i].title}</h1>
         <div class="depositions-content">
             <p>
