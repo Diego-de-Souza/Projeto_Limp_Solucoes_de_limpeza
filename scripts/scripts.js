@@ -80,6 +80,6 @@ function banner_rotativo4(){
             
    
     }
-    setInterval(banner_rotativo4, 1000); 
+    setInterval(banner_rotativo4, 1000);
     
     /* © Copyright MMXXIII by Itamar Maximo De Sena. */

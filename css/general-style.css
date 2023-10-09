@@ -1,3 +1,5 @@
+/*Author: Felipe Prado Ferreira*/
+
 /*   
 #========Color palette========#
 #1f1f1f - Background header/footer
@@ -49,12 +51,6 @@ li, a:link, a:visited{
     margin: 0;
 }
 
-.limited-box{
-    width: 300px;
-    height: fit-content;
-    padding-left: 10px;
-    padding-right: 10px;
-}
 /*Header style*/
 
 header {

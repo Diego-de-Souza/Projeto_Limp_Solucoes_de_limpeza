@@ -1,3 +1,4 @@
+/*Author: Felipe Prado Ferreira*/
 .center{
     margin-left: auto;
     margin-right: auto;
@@ -20,6 +21,13 @@
     text-align: center;
     padding-top: 30px;
     padding-bottom: 30px;
+}
+
+.limited-box{
+    width: 300px;
+    height: fit-content;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .compromise-box h3{
@@ -66,9 +74,7 @@
 
 .flex-box-services{
     display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    width: 100%;
+    justify-content: space-evenly; 
     height: fit-content;
 }
 
@@ -106,7 +112,7 @@
 }
 
 .example-depositions{
-    background-color: #074783;
+    background: linear-gradient(180deg, #074783 0%, rgba(17.50, 221, 221, 0.99) 100%);
     height: auto;
     width: 100%;
 }
