@@ -11,12 +11,11 @@ Sprint 2
     + Desenvolvimento e estilização da página index.html.
 
 Sprint 3
+    + Criação da pasta views para armazenamento das páginas e criação das pastas general-images e index-images para organização das imagens;
+    + Criação do test.html para servir como base para a reestruturação das páginas de forma mais organizada;
+    + Reestruturação geral do header, navbar, footer e da página index.html;
+    + Correções das páginas para adaptação do novo header e footer;
     + Criação do general-styles.css para organização dos estios do header, navbar, footer, e outros estilos padrões do projeto.
     + Criação do index.css para organização individual do estilo da página;
-    + Criação da pasta views para armazenamento das páginas;
-    + Criação do test.html para servir como base para a reestruturação das páginas de forma mais organizada;
-    + Criação das pastas general-images e index-images para organização das imagens;
-    + Reestruturação geral do header, navbar e footer;
-    + Reestruturação geral da página index.html;
-    + Correções no sobrenos.html para adaptação do novo header e footer;
-    + Criação do index-scripts.js.
+    + Criação do index-scripts.js para remoção de repetições no código da página index;
+    + Correções da página cases.html para padronização do projeto;
