@@ -24,7 +24,7 @@ for(let i = 0; i < exampleServices.length; i++){
     </div>
     `
     //adding elements to the DOM
-    const services_box_elements = document.querySelector(".flex-box-services")
+    let services_box_elements = document.querySelector(".flex-box-services")
     services_box_elements.appendChild(service)
 }
 
