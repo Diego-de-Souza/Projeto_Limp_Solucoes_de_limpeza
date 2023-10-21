@@ -18,4 +18,5 @@ Sprint 3
     + Criação do general-styles.css para organização dos estios do header, navbar, footer, e outros estilos padrões do projeto.
     + Criação do index.css para organização individual do estilo da página;
     + Criação do index-scripts.js para remoção de repetições no código da página index;
+    (Corrigir flexbox da index: serviços exemplos e depoimentos)
     + Correções da página cases.html para padronização do projeto;

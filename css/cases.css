@@ -1,8 +1,10 @@
 /* ------------------------------------corpo <Main>------------------------------------------ */
 /*Autor Itamar Maximo De Sena*/
 /* Csaes-main H1 */
+#main{
+    background: linear-gradient(180deg, #074783 0%, rgba(17.50, 221, 221, 0.99) 100%);
+}
 #cases-main {
-    margin-top:126px;
     margin-inline: 4rem;
     color: #fff;
     }
@@ -20,12 +22,10 @@
     }
     
     #container-main-001 {
-        
     display: flex;
     flex-direction: column;
-    /*margin-top: 80px;*/
     height: 108%;
-    background-color: rgb(54, 118, 161);
+    background: linear-gradient(180deg, #074783 0%, rgba(17.50, 221, 221, 0.99) 100%);
     }
     
     #container-main-002,
@@ -35,20 +35,58 @@
     #container-main-006 {
     display: flex;
     flex-direction: column;
-    margin-top: 80px;
     height: 100%;
     background-color: rgb(54, 118, 161);
     }
     
+    .h1{
+        font-size: 2em;
+        width: 100%;
+        text-align: center;
+        padding: 1em 0em ;  
+        background-color: #074783;
+        color: #fff;
+        margin-bottom: 1.4rem;
+    }
+    
+    
     #container-main-01 {
-    border: 3px solid rgb(66, 84, 85);
-    border-radius: 1rem;
-    margin: 0.3rem;
-    margin-left: 15rem;
-    margin-right: 15rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid #D9D9D9;
+    border-radius: 20px;
+    margin-bottom: 2rem;
+    margin-left: 10%;
+    margin-right: 10%;
     padding: 0.2rem;
-    background-color: beige;
-    height: 7rem;
+    background-color: white;
+    height: auto;
+    width: fit-content;
+    }
+
+    #container-main-01 h2{
+        text-align:center;
+        color: #165EA0;
+        font-size: 2rem;
+        padding-top: 5px;
+    }
+
+    #container-main-01 img{      
+        max-width: 16rem;
+        width:100%;
+        margin-right: 170px;
+        border: 1px solid black; /*Temporário, remover depois que as imagens forem escolhidas.*/
+        border-radius: 20px;
+    }
+
+    #container-main-01 p{
+        margin-left: 50px;
+        margin-right: 50px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        text-align:justify;
+        font-size: 1.3rem;
     }
     
     #container-main-a, 
