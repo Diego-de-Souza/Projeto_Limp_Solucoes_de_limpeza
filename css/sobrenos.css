@@ -1,4 +1,5 @@
     /*Tela do Sobre nós*/
+    
     .principal_main{
         padding-left: 50px;
         padding-right: 50px;
@@ -54,6 +55,7 @@
         display: flex;
         height: 20vh;
     }
+
     .sobrenos {
         display: flex;
         width: 75vw;
@@ -71,7 +73,7 @@
         justify-content: center;
         flex-direction: column;
         text-align: center;
-        width: 95vw;
+        width: 100%;
         height: 20vh;
         font-size: 30px;
         color:#000a00;
@@ -79,21 +81,21 @@
         font-family: "Open Sans",sans-serif;
     }
     .img_principal{
-        width: 25vw;
-        height: 20vh;
+        width: 30%;
+        height: 100%;
         display: flex;
     }
     .img_primeiro_paragrafo{
-        width: 40vw;
-        height: 60vh;
+        width: 30%;
+        height: 50%;
     }
     .p_primeiro_paragrafo_sobrenos{
-        width: 60vw;
+        width: 100%;
         height: 50vh;
         display: flex;
         margin-left: 20px;
         text-align: justify;
-        font-size: 20px;
+        font-size: 1rem;
     }
     .primeiro_paragrafo{
         display: flex;
@@ -114,9 +116,23 @@
         text-align: center;
         font-family: "Open Sans",sans-serif;
     }
+
+    .tempoMercado{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        width: 95vw;
+        height: 20vh;
+        font-size: 30px;
+        color:#000a00;
+        text-align: center;
+        font-family: "Open Sans",sans-serif;
+    }
+
     .img_como_trabalhamos{
-        width: 70vw;
-        height: 50vh;
+        width: 70%;
+        height: 100%;
         background-color: #51E6F2;
         flex-direction: column;
         display: flex;
@@ -145,4 +161,125 @@
     .rodape{
         list-style-type: none;
         margin-left: 0px;
+    }
+
+    @media screen and (max-width: 800px) {
+        .header-top-content {
+            display: flex;
+            justify-content: baseline;
+            font-size: 0.6rem;
+        }
+
+        .logo{
+            width:80%;
+        }
+    
+        .nav{
+            width: 60%;
+            font-size: 0.6rem;
+            display: flex;
+            align-items: baseline;
+        }
+
+        .top_principal {
+            display: flex;
+            height: 20vh;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .sobrenos {
+            display: flex;
+            width: 100%;
+            height: 100%;
+            font-size: 40px;
+            background-color:rgb(216, 213, 213);
+            color:#ec8105;
+            text-align: center;
+            justify-content: center;
+            flex-direction: column;
+            font-family: "Open Sans",sans-serif; 
+        }
+
+        .img_principal{
+            width: 240px;
+            height: 100%;
+            display: flex;
+        }
+        
+        #quemsomos{
+            margin-top: 150px;
+        }
+
+        .quemsomos{
+            font-size: 25px;
+            margin-left: 0;
+        }
+
+        .primeiro_paragrafo{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+        }
+        .img_primeiro_paragrafo{
+            width: 100%;
+        }
+
+        .p_primeiro_paragrafo_sobrenos{
+            font-size: 0.73rem;
+            display: flex;
+            margin-top: 1rem;
+            margin-bottom: 2rem;
+        }
+
+        .como_trabalhamos{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+           }
+
+        .objetivo{
+            font-size: 1.5rem;
+        }
+
+        .img_como_trabalhamos{
+            display: flex;
+            margin-left: 47px;
+        }
+
+        .mercado{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+           }
+
+           .result{
+            font-size: 2.5rem;
+           }
+
+           .resultados{
+            font-size: 1rem;
+           }
+
+        .tempoMercado{
+            font-size: 1.5rem;
+        }
+
+        .footer-content{
+            display: flex;
+        }
+
+        .limited-box{
+            font-size: 0.8rem;
+        }
+
+        .limited-informacoes{
+            font-size: 0.6rem;
+        }
+
+        .limited-redes{
+            font-size: 0.6rem;
+            margin-left: 30px;
+        }
+
     }
