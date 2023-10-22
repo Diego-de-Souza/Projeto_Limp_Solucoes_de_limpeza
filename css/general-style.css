@@ -163,7 +163,6 @@ footer {
 
 /*Custom button*/
 .btn-custom{
-    background-color: #00D4E1;
     border:none;
     color:white;
     padding: 15px 32px;
@@ -171,6 +170,25 @@ footer {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    font-weight: bold;
+    font-weight: bold;   
+}
+
+.btn-custom-opt1{
+    background-color: #00D4E1;
     box-shadow: 3px 3px #16548f;
+}
+
+.btn-custom-opt1:hover{
+    background-color: #00f2ff;
+    transition: 0.7s;
+}
+
+.btn-custom-opt2{
+    background-color: #16548f;
+    box-shadow: 3px 3px #151e27;
+}
+
+.btn-custom-opt2:hover{
+    background-color: #458EB8;
+    transition: 0.7s;
 }

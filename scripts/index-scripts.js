@@ -1,14 +1,14 @@
 /*Author: Felipe Prado Ferreira*/
 //Example services boxes
 const exampleServices = [{
-    title: "Serviço 1",
-    description: "Descrição do serviço 1 ... ... ... ... ..."
+    title: "Limpeza Urbana",
+    description: "Efetuamos a coleta seletiva de lixo, limpeza e capinação de ruas, parques, praças, podas de árvores e limpeza de bueiros. Dispomos de profissionais e ferramentas de ponta para todos os trabalhos de limpeza urbana."
 },{
-    title: "Serviço 2",
-    description: "Descrição do serviço 2 ... ... ... ... ..."
+    title: "Limpeza Industrial",
+    description: "Limpeza de piso, parede, vidros e caixilhos, varrição, aspiração, higienização de sanitários, aplicação de produtos de limpeza e tratamento de piso; fornecimento e reposição de materiais, descartáveis e equipamento de limpeza em geral caso haja necessidade."
 },{
-    title: "Serviço 3",
-    description: "Descrição do serviço 3 ... ... ... ... ..."
+    title: "Limpeza Laboratorial",
+    description: "A limpeza do laboratório consiste na limpeza do espaço comum, limpeza da lixeira e local de escarte. Profissionais treinados periodicamente para manter o operador de limpeza sempre atualizado."
 }]
 for(let i = 0; i < exampleServices.length; i++){
     //creating elements
@@ -49,7 +49,7 @@ for(let i = 0; i < clientDepositions.length; i++){
     deposition.innerHTML=
     `
     <div class="depositions">
-    <img class="generic-client-img" src="/img/index-images/generic-client.png" alt="generic client">
+    <img class="generic-client-img" src="./img/index-images/generic-client.png" alt="generic client">
         <h1>${clientDepositions[i].title}</h1>
         <div class="depositions-content">
             <p>
