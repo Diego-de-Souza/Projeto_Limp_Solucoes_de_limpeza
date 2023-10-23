@@ -78,7 +78,8 @@
 }
 
 .services-content{
-    height: 280px;
+    height: fit-content;
+    min-height: 280px;
     max-width: 320px;
     background-color: white;
     border-bottom-left-radius: 20px;
@@ -145,7 +146,8 @@
 }
 
 .depositions-content{
-    height: 480px;
+    height: fit-content;
+    min-height: 480px;
     max-width: 320px;
     background-color: white;
     border-bottom-left-radius: 20px;
