@@ -2,10 +2,14 @@
 @charset "UTF-8";
 /*Edições feitas pelo felipe, mudar se necessário*/
 
+#main{
+  background: linear-gradient(180deg, #074783 0%, rgba(17.50, 221, 221, 0.99) 100%);
+}
+
 .form-div{
-    background: linear-gradient(180deg, #074783 0%, rgba(17.50, 221, 221, 0.99) 100%);
-    padding-top: 16vh;
-    padding-bottom: 16vh;
+    
+    padding-top: 5vh;
+    padding-bottom: 5vh;
     display: flex;
     justify-content:space-evenly;
 }
@@ -53,26 +57,35 @@ input[type=text],input[type=tel], select {
     transition: 0.7s;
   }
 
-  .form {
-    background-color: #f2f2f2;
-  }
+.form {
+  background-color: #f2f2f2;
+}
 
-  .text-div{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
+.text-div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
-  .flavor-text-title, .flavor-text{
-    color: white;
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-bottom: 25px;
-  }
-  
-  .flavor-text-title{
-    font-weight: bold;
-    font-size:xx-large;
-  }
+.flavor-text-title, .flavor-text{
+  color: white;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 25px;
+}
+
+.flavor-text-title{
+  font-weight: bold;
+  font-size:xx-large;
+}
  
+.h1{
+  font-size: 2em;
+  width: 100%;
+  text-align: center;
+  padding: 1em 0em ;  
+  background-color: #074783;
+  color: #fff;
+  margin-bottom: 1.4rem;
+}
