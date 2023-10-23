@@ -39,11 +39,6 @@
     color: white;
 }
 
-.btn-custom:hover{
-    background-color: #00f2ff;
-    transition: 0.7s;
-}
-
 .example-services{
     width: 100%;
     height: auto;
@@ -95,6 +90,13 @@
     font-size: 20px;
     text-align: center;
     margin: 15px;
+}
+
+.centered-btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .example-depositions{
