@@ -4,9 +4,10 @@
 /*Formulário de contato*/
 
 .formulario{
-    width: 400px;
+    width: fit-content;
     padding: 30px;
     border:1px solid #ccc;
+    background-color: #D9D9D9;
 }
 .formulario p{
     width: 100%;
@@ -31,7 +32,7 @@ input[type=text],
 input[type=email],
 textarea{
     width: 100%;
-    padding-left: 10px;
+
     height: 30px;
     line-height: 30px;
     border-radius: 8px;
@@ -69,4 +70,9 @@ input[type=submit]{
     padding: 0;
     }
     
-
+form p{
+    width: auto;
+    background-color: #458EB8;
+    text-align: center;
+    color: white;
+}
