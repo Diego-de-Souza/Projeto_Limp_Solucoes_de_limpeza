@@ -15,8 +15,8 @@ Sprint 3
     + Criação do test.html para servir como base para a reestruturação das páginas de forma mais organizada;
     + Reestruturação geral do header, navbar, footer e da página index.html;
     + Correções das páginas para adaptação do novo header e footer;
-    + Criação do general-styles.css para organização dos estios do header, navbar, footer, e outros estilos padrões do projeto.
+    + Criação do general-styles.css para organização dos estios do header, navbar, footer, e outros estilos padrões do projeto;
     + Criação do index.css para organização individual do estilo da página;
     + Criação do index-scripts.js para remoção de repetições no código da página index;
-    (Corrigir flexbox da index: serviços exemplos e depoimentos)
-    + Correções da página cases.html para padronização do projeto;
+    + Correções da página cases.html, sobrenos.html e seus respectivos .css para padronização do projeto;
+    + Estilização da página contato.html.

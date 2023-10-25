@@ -49,7 +49,9 @@ main {
     margin-bottom: 2em;
     grid-column-gap: 1em;
     grid-row-gap: 1em;
-    width: 95%;
+    /*width: 95%;*/
+    margin-left: 15%;
+    margin-right: 15%;
 }
 .container-servicos__banners-conteudo{
     /*Configuração referente aos banners de serviço e seu conteudo*/
@@ -109,9 +111,12 @@ main {
 #container-vantagens__conteudo {
     display: flex;
     flex-direction: row;
-    width: 100%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 1.1rem;
     justify-content: space-around;
-    margin: 2em 0em;
+    
+    
 }
 
 #container-vantagens__conteudo-img {
