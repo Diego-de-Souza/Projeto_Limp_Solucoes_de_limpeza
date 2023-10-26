@@ -1,5 +1,13 @@
 * {box-sizing:border-box}
 
+.slideshow-container-background{
+    width: 100%;
+    height: fit-content;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: white;
+}
+
 /* Slideshow container */
 .slideshow-container {
   max-width: 1000px;
@@ -10,6 +18,10 @@
 /* Hide the images by default */
 .mySlides {
   display: none;
+}
+
+.visible{
+    display: block;
 }
 
 /* Next & previous buttons */
