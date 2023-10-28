@@ -32,16 +32,6 @@
     border-radius:0px 0px 6px 6px;
 }
 
-input[type=text],input[type=tel], select {
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-  }
-  
   input[type=submit] {
     width: 100%;
     background-color: #00D4E1;
@@ -62,6 +52,16 @@ input[type=text],input[type=tel], select {
 
 .form {
   background-color: #f2f2f2;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  background-color: #f2f2f2;
+  border-radius: 16px;
+  padding: 1.5rem 40px;
+  border-radius:0px 0px 6px 6px;
 }
 
 .text-div{
@@ -91,4 +91,65 @@ input[type=text],input[type=tel], select {
   background-color: #074783;
   color: #fff;
   margin-bottom: 1.4rem;
+}
+
+input.error {
+  border: solid 2px #992020;
+  background-color: #CCBBBB;
+  color: #662020;
+}
+
+input.correct {
+  background-color: #BBCCBB;
+  border: solid 2px #206620;
+  color: #206620;
+}
+
+.visible {
+  display: block;
+}
+
+.required-popup::after {
+  content: "*Campo obrigatório";
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: #DFDFDF;
+  font-size: .65rem;
+  padding: .2rem .3rem;
+  width: auto;
+  display: block;
+  background-color: #202020;
+}
+
+input {
+  padding: .6rem;
+  border-radius:6px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  
+}
+
+textarea {
+  padding: .6rem;
+  border-radius:6px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  
+}
+
+.helper-text {
+  display: none;
+  font-size: .8rem;
+  color: darkred;
+}
+
+button {
+  width: 100px;
+  height: 40px;
+  margin-top: 1.5rem;
+  font-size: 1rem;
+  align-self: center;
+  background-color: #00D4E1;
+  border-radius:6px;
 }

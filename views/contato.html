@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <link rel="stylesheet" href="../css/general-style.css">
     <link rel="stylesheet" href="../css/contato.css">
+    <script src="../scripts/faleconosco.js" defer></script>
     <title>Contato</title>
 </head>
 
@@ -63,22 +64,29 @@
                 <div>
                     <h2 class="form-title">Fale conosco</h2>
 
-                    <form class="form-body"> 
-                        <label>Nome*</label>
-                        <input type="text" placeholder="Seu nome...">
+                    <form action="">
+                        <label for="username">*Nome:</label>
+                        <input type="text" id="username" name="username">
+                        <p id="username-helper" class="helper-text">Mensagem de ajuda</p>
                     
-                        <label>Email empresarial*</label>
-                        <input type="tel" placeholder="Seu email...">
+                        <label for="email">*E-mail:</label>
+                        <input type="email" id="email" name="email">
+                        <p id="email-helper" class="helper-text">Mensagem de ajuda</p>
+                    
+                        <label for="idade">Telefone:</label>
+                        <input type="number" id="telefone" name="telefone">
+                        <p id="telefone-helper" class="helper-text">Mensagem de ajuda</p>
+                    
+                        <label for="assunto">*Assunto:</label>
+                        <input type="assunto" id="assunto" name="assunto">
+                        <p id="assunto-helper" class="helper-text">Mensagem de ajuda</p>
 
-                        <label>Telefone celular*</label>
-                        <input type="text" placeholder="Seu telefone...">
-
-                        <label>Assunto</label>
-                        <input type="text">
-                      
-                        <input type="submit" value="Enviar">
-                        
-                    </form>
+                        <label for="mensagem">*Mensagem:</label>
+                        <textarea id="mensagem" name="mensagem" rows="4" cols="50"></textarea>
+                        <p id="mensagem-helper" class="helper-text">Mensagem de ajuda</p>
+                    
+                        <button type="submit">Enviar</button>
+                      </form>
                 </div>
             </div>
         </div>
