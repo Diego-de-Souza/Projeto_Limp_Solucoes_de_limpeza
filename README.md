@@ -9,8 +9,7 @@ O projeto é dividido em sprints, cada sprint é uma fase do projeto e está pla
 + _Diego de Souza Lima_  
 + _Estevão Santos_  
 + _Felipe Prado Ferreira_  
-+ _Isaias de Oliveira_  
-+ _Itamar Máximo de Sena_
++ _Isaias de Oliveira_ 
 
 ## <font color="RoyalBlue">Sprints do Projeto</font>
 
