@@ -55,7 +55,7 @@ li, a:link, a:visited{
 /*Header style*/
 
 header {
-    position: absolute;
+    position: fixed;
     width: 100%;
     height: auto;
     padding-bottom: 9px;
@@ -72,9 +72,14 @@ header {
 
 .header-top-content{
     display: flex;
-    justify-content:baseline;
-    margin-left: 15%;
-    margin-right: 15%;
+    justify-content:space-between;
+    margin-left:5%;
+    margin-right: 5%;
+}
+
+.header-content{
+    display: flex;
+    flex-direction: row;
 }
 
 .flex-icon-text{
@@ -105,6 +110,10 @@ header {
 }
 
 /*Navbar style*/
+header.ativo{
+    background: orange;
+}
+
 .nav-flex{
     display: flex;
     justify-content: space-around;
@@ -133,10 +142,13 @@ header {
     height:auto;
 }
 .nav a:hover{
+    padding-top: 5px;
+    padding-bottom: 5px;
     background-color: #458EB8;
     color: black;
-    padding-top: 40px;
-    padding-bottom: 36px;
+    transition: 0.5s;
+    opacity: 0.7;
+    cursor: pointer;
 }
 
 /*Footer style*/
