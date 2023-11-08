@@ -1,48 +1,67 @@
 /*Author: Felipe Prado Ferreira*/
 
+/*############# Slideshow elements #############*/
+const slideshowElements=[{
+  img: "/img/index-images/Slideshow/img1.jpg",
+  numberText: '1 / 3',
+  title: 'Limpeza Urbana'
+},{
+  img: "/img/index-images/Slideshow/img2.jpg",
+  numberText: '2 / 3',
+  title: 'Limpeza Industrial'
+},{
+  img: "/img/index-images/Slideshow/img3.jpg",
+  numberText: '3 / 3',
+  title: 'Limpeza Laboratorial'
+}]
+for(let i = 0; i < slideshowElements.length; i++){
+  //creating elements
+  const slideElement = document.createElement("slideElement")
+
+    //manipulating elements
+    slideElement.innerHTML=
+    `
+    <div class="mySlides fade">
+    <img src=${slideshowElements[i].img} style="width:100%">
+    <div class="text">${slideshowElements[i].title}</div>
+    </div>
+    `
+  
+  
+  //adding elements to the DOM
+  const slide_container = document.querySelector(".slideshow-container")
+  slide_container.appendChild(slideElement)
+}
+
 /*############# Slideshow content #############*/
-let slideIndex = 1;
-showSlides(slideIndex);
+let slideIndex = 0;
+showSlides();
 
-// Next/previous controls
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
-
-// Thumbnail image controls
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
-
-function showSlides(n) {
+function showSlides() {
   let i;
   let slides = document.getElementsByClassName("mySlides");
-  let dots = document.getElementsByClassName("dot");
-  if (n > slides.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = slides.length}
   for (i = 0; i < slides.length; i++) {
     slides[i].style.display = "none";
   }
-  for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" active", "");
-  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}
   slides[slideIndex-1].style.display = "block";
-  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 5000); // Change image every 5 seconds
 }
 
 /*############# Depositions #############*/
 const clientDepositions=[{
-    photo: "",
+    photo: "./img/index-images/generic-client.png",
     title: 'Cliente 1',
-    depo: 'Deposição 1 ... ... ... ... ... ... ... ... ... ...'
+    depo: 'Depoimento 1 ... ... ... ... ... ... ... ... ... ...'
 },{
-    photo: "",
+    photo: "./img/index-images/generic-client.png",
     title: 'Cliente 2',
-    depo: 'Deposição 2 ... ... ... ... ... ... ... ... ... ...'
+    depo: 'Depoimento 2 ... ... ... ... ... ... ... ... ... ...'
 },{
-    photo: "",
+    photo: "./img/index-images/generic-client.png",
     title: 'Cliente 3',
-    depo: 'Deposição 3 ... ... ... ... ... ... ... ... ... ...'
+    depo: 'Depoimento 3 ... ... ... ... ... ... ... ... ... ...'
 }]
 for(let i = 0; i < clientDepositions.length; i++){
     //creating elements
@@ -51,7 +70,7 @@ for(let i = 0; i < clientDepositions.length; i++){
     deposition.innerHTML=
     `
     <div class="depositions">
-    <img class="generic-client-img" src="./img/index-images/generic-client.png" alt="generic client">
+    <img class="generic-client-img" src=${clientDepositions[i].photo} alt="generic client">
         <h1>${clientDepositions[i].title}</h1>
         <div class="depositions-content">
             <p>
