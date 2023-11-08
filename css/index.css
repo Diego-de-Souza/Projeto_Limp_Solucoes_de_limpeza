@@ -114,6 +114,7 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    flex-wrap: wrap;
     padding-left: 15%;
     padding-right: 15%;
     height: fit-content;
@@ -140,6 +141,7 @@
     display: flex;
     align-items: center;
     flex-direction: column;
+    
     height: auto;
     background-color: #FF8718;
     border: solid #FF8718;
