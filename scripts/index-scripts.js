@@ -51,17 +51,17 @@ function showSlides() {
 
 /*############# Depositions #############*/
 const clientDepositions=[{
-    photo: "./img/index-images/generic-client.png",
-    title: 'Cliente 1',
-    depo: 'Depoimento 1 ... ... ... ... ... ... ... ... ... ...'
+    photo: "./img/index-images/cientista.jpg",
+    title: 'Cientista',
+    depo: 'Depoimento ... ... ... ... ... ... ... ... ... ...'
 },{
-    photo: "./img/index-images/generic-client.png",
-    title: 'Cliente 2',
-    depo: 'Depoimento 2 ... ... ... ... ... ... ... ... ... ...'
+  photo: "./img/index-images/politico.jpg",
+  title: 'Político',
+  depo: 'Depoimento ... ... ... ... ... ... ... ... ... ...'
 },{
-    photo: "./img/index-images/generic-client.png",
-    title: 'Cliente 3',
-    depo: 'Depoimento 3 ... ... ... ... ... ... ... ... ... ...'
+    photo: "./img/index-images/empresario.jpg",
+    title: 'Empresário',
+    depo: 'Depoimento ... ... ... ... ... ... ... ... ... ...'
 }]
 for(let i = 0; i < clientDepositions.length; i++){
     //creating elements

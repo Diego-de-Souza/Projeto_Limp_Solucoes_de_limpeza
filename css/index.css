@@ -123,6 +123,7 @@
 .flex-box-services{
     display: flex;
     justify-content: space-evenly;
+    align-items: baseline;
     height: fit-content;
     padding-left: 15%;
     padding-right: 15%;
