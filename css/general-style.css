@@ -36,12 +36,11 @@ body{
 
 #main{
     overflow: auto;
-    padding-top:120px;
     padding-bottom: 145px;
     background-color: rgb(133, 65, 65);
     display: flex;
     flex-direction: column;
-    padding-top: 7.5rem;
+    padding-top: 5.6rem;
 }
 
 li, a:link, a:visited{
@@ -193,3 +192,215 @@ footer {
     background-color: #458EB8;
     transition: 0.7s;
 }
+
+/*Novo style com menu hamburger e responsividade*/
+
+body, ul{
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  #header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 1rem 15%;
+    height: 90px;
+    background-color: #1f1f1f;
+  }
+  
+  #nav-menu{
+    display: flex;
+    list-style: none;
+    gap: .5rem;
+  }
+  
+  #nav-menu a{
+    display: block;
+    padding: 2.2rem .2rem;
+  
+  }
+  
+  #logo{
+    width: 190px;
+    height: auto;
+  }
+  
+  ul li a{
+    color: white;
+    text-decoration: none;
+  }
+  
+  ul li a:hover{
+    background-color: #458EB8;
+    color: black;
+  }
+  
+  #btn-mobile{
+    display: none;
+  }
+  
+  #social{
+    display: flex;
+    height: 19px;
+    padding: .2rem 15%;
+    justify-content:flex-end;
+    align-items: center;
+    background-color: #458EB8;
+  }
+  
+  #social ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    
+  }
+  
+  #social ul li, #social ul li a{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  
+  #social ul li p{
+    padding: 0px;
+    margin: 0px;
+    display: block;
+    color: white;
+  }
+  
+  #icon{
+    width: auto;
+    height: 15px;
+  }
+  
+  #footer{
+    display: flex;
+    height: auto;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: baseline;
+    padding: 1rem .5rem;
+    background-color: #1f1f1f;
+  }
+  
+  #footer h2, #footer h3{
+  margin: 0px;
+  color: white;
+  }
+  
+  #footer ul{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+  }
+  
+  #footer ul li, #footer ul li a{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    list-style:none;
+    color: white;
+  }
+  
+  @media (max-width:620px){
+    #btn-mobile{
+        display: flex;
+        margin-right: 1rem;
+        padding: .5rem 1rem;
+        font-size: 1rem;
+        border: none;
+        background: none;
+        cursor: pointer;
+        color: white;
+        gap: .5rem;
+    }
+  
+    #hamburger{
+  
+      display: block;
+      border-top: 2px solid;
+      width: 20px;
+    }
+  
+    #hamburger::after, #hamburger::before{
+      position: relative;
+      content: '';
+      display: block;
+      width: 20px;
+      height: 2px;
+      background: currentColor;
+      margin-top: 5px;
+      transition: .6s;
+    }
+    
+    #hamburger.active{
+      border-top-color: transparent;
+    }
+  
+    #hamburger.active::before{
+      transform: rotate(135deg);
+    }
+  
+    #hamburger.active::after{
+      transform: rotate(-135deg);
+      top: -7px;
+    }
+  
+    #header{
+      padding-left: 0px;
+      padding-right: 0px;
+    }
+  
+    #header #logo{
+      padding-left: 1rem;
+    }
+    
+    #nav-menu{
+        display: block;
+        position: absolute;
+        top:90px;
+        width: 100%;
+        background-color: #1f1f1f;
+        transition: .6s;
+        z-index: 10000;
+        height: 0px;
+        visibility: hidden;
+        overflow-y: hidden;
+    }
+  
+    #nav-menu.active{
+      height: calc(100vh - 90px);
+      visibility: visible;
+      overflow-y: auto;
+    }
+  
+    #nav-menu a{
+      padding: 1rem 0;
+      margin: 0 1rem;
+      border-bottom: 2px solid rgb(66, 66, 66);
+    }
+  
+    #footer{
+      flex-direction: column;
+      
+    }
+  } 
+  
+  @media (max-width:480px){
+    #social ul li p{
+        display: none;
+      }
+
+  }
+
+  @media (max-width:310x){
+    #logo{
+      display: none;
+    }
+  
+    #footer{
+      display: none;
+    }
+  }

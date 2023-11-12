@@ -176,7 +176,7 @@ color: white;
   }
 
   #nav-menu.active{
-    height: calc(100vh - 115px);
+    height: auto;
     visibility: visible;
     overflow-y: auto;
   }
@@ -193,7 +193,6 @@ color: white;
 
   #footer{
     flex-direction: column;
-    
   }
 } 
 
