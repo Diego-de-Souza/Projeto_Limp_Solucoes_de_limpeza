@@ -90,7 +90,8 @@ ul li a:hover{
   background-color: #1f1f1f;
 }
 
-#footer h2{
+#footer h2, #footer h3{
+margin: 0px;
 color: white;
 }
 
