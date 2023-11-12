@@ -7,7 +7,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <link rel="stylesheet" href="../css/general-style.css">
     <link rel="stylesheet" href="../css/contato.css">
-    <script src="../scripts/faleconosco.js" defer></script>
+    
+    <script src="../scripts/faleConosco2.js"defer></script>
     <title>Contato</title>
 </head>
 
@@ -66,7 +67,7 @@
 
                     <form action="">
                         <label for="username">*Nome:</label>
-                        <input type="text" id="username" name="username">
+                        <input type="text" id="username" name="username" autocomplete="given-name">
                         <p id="username-helper" class="helper-text">Mensagem de ajuda</p>
                     
                         <label for="email">*E-mail:</label>
@@ -74,7 +75,7 @@
                         <p id="email-helper" class="helper-text">Mensagem de ajuda</p>
                     
                         <label for="idade">Telefone:</label>
-                        <input type="number" id="telefone" name="telefone">
+                        <input type="tel" id="telefone" name="telefone">
                         <p id="telefone-helper" class="helper-text">Mensagem de ajuda</p>
                     
                         <label for="assunto">*Assunto:</label>
@@ -85,12 +86,28 @@
                         <textarea id="mensagem" name="mensagem" rows="4" cols="50"></textarea>
                         <p id="mensagem-helper" class="helper-text">Mensagem de ajuda</p>
                     
-                        <button type="submit">Enviar</button>
+                        <button type="submit" id="BtnSubmit">Enviar</button>
                       </form>
                 </div>
             </div>
         </div>
      </section>
+     <span id="spanError">
+        <h4 class="centerSpan">Existe alguns campos preenchidos de forma incorreta ou sem preencher.</h4>
+        <h4><br>Orientações:</h4>
+        <p>- O Campo nome deve conter no minimo 3 caracteres</p>
+        <p>- O campo email dever ser preenchico com um e-mail válido, contendo "@" e o dominio</p>
+        <p>- O campo Assunto deve conter um assunto com no minimo 10 caracteres </p>
+        <p>- O campo mensagem deve conter uma mensagem com no minimo 10 caracteres</p>
+        <button id="btnSpan">OK</button>
+    </span>
+    <span id="spanCorrect">
+        <div class="containerBtnFechar">
+            <div class="btnFechar">X</div>
+        </div>
+        <h4 class="centerSpan">Informações enviadas com sucesso!</h4>
+        <p class="centerSpan"><br>Em breve, um consultor entrará em contato.</p>
+    </span>
 
     <footer>
         <div class="footer-content">
