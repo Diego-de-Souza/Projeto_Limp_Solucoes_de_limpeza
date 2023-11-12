@@ -4,72 +4,59 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Teste Header e Footer</title>
-    <link rel="stylesheet" href="/css/general-style.css">
     <link rel="stylesheet" href="/css/test-styles.css">
-    <script src="/scripts/test-scripts.js" ></script>
+    <script src="/scripts/test-scripts.js" defer></script>
 </head>
 
 <body>
-    <section id="container">
-        <div id="main">
-            <div id="cases">
-                <div class="cases-flex">
+    <div id="social">
+        <ul>
+            <li><img src="/img/general-images/telefone.png" id="icon" alt="phone"><p>(xx) xxxx-xxxx</p></li>
+            <li><a href="https://web.whatsapp.com/"><img src="/img/general-images/whatsapp.png" id="icon" alt="whatsap"><p>(xx) xxxxx-xxxx</p></a></li>
+            <li><a href="https://www.linkedin.com/"><img src="/img/general-images/linkedin.png" id="icon" alt=""></a></li>
+            <li><a href="https://www.instagram.com/"><img src="/img/general-images/instagram.png" id="icon" alt=""></a></li>
+            <li><a href="https://www.youtube.com/"><img src="/img/general-images/youtube.png" id="icon" alt=""></a></li>
+        </ul>
+    </div>
+    <header id="header">
+        <a href="/index.html"><img id="logo" src="/img/general-images/limplogo.png" alt=""></a>
+        <button id="btn-mobile">Menu
+            <span id="hamburger">
 
-                    <div class="cases-box">
-                
-                            <h1 class="case-title">Título</h1>
-    
-                            <div class="inside-cases-flex">
-                                <img class="case-image" src="/img/img-cases/generic-case.jpg" alt="case image">
-                                <p class="case-text">
-                                    text test text test text test
-                                </p>
-                            </div>
-    
-                    </div>
-                    <div class="cases-box">
-                
-                        <h1 class="case-title">Título</h1>
-    
-                        <div class="inside-cases-flex">
-                            <img class="case-image" src="/img/img-cases/generic-case.jpg" alt="case image">
-                            <p class="case-text">
-                                text test text test text test
-                            </p>
-                        </div>
-    
-                    </div>
-                    <div class="cases-box">
-                
-                        <h1 class="case-title">Título</h1>
-    
-                        <div class="inside-cases-flex">
-                            <img class="case-image" src="/img/img-cases/generic-case.jpg" alt="case image">
-                            <p class="case-text">
-                                text test text test text test text test text test text test text test text test text testtext test text test text test
-                            </p>
-                        </div>
-    
-                    </div>
-                    <div class="cases-box">
-                
-                        <h1 class="case-title">Título</h1>
-    
-                        <div class="inside-cases-flex">
-                            <img class="case-image" src="/img/img-cases/generic-case.jpg" alt="case image">
-                            <p class="case-text">
-                                text test text test text test
-                            </p>
-                        </div>
-    
-                    </div>
-    
-                </div>
-            </div>
-            
-            
+            </span>
+        </button>
 
-        </div>
-    </section>
+        <ul id="nav-menu">
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="/views/sobrenos.html">Sobre nós</a></li>
+            <li><a href="/views/servicos.html">Serviços</a></li>
+            <li><a href="/views/cases.html">Cases</a></li>
+            <li><a href="/views/contato.html">Contato</a></li>
+        </ul>
+        
+    </header>
+    
+
+    <footer id="footer">
+        <h2>&copy; Limp Soluções.</h2>
+
+        <ul>
+            <li><h3>Informações</h3></li>
+            <li><img src="/img/general-images/telefone.png" id='icon' alt="">(xx) xxxx-xxxx</li>
+            <li><img src="/img/general-images/whatsapp.png" id='icon' alt="">(xx) xxxxx-xxxx</li>
+            <li><img src="/img/general-images/email.png" id='icon' alt="">contato@limp.com.br</li>
+            <li><img src="/img/general-images/local.png" id='icon' alt="">
+                Rua tal, 000 - Bairro tal<br>
+                Cidade tal, Estado tal
+            </li>
+        </ul>
+
+        <ul>
+            <li><h3>Redes Sociais</h3></li>
+            <li><a class="footer-link" href="https://www.instagram.com/"><img src="/img/general-images/instagram.png" id='icon'alt="">Instagram</a></li>
+            <li><a class="footer-link" href="https://www.linkedin.com/"><img src="/img/general-images/linkedin.png" id='icon'alt="">Linkedin</a></li>
+            <li><a class="footer-link" href="https://www.youtube.com/"><img src="/img/general-images/youtube.png" id='icon'alt="">Youtube</a></li>
+        </ul>
+    </footer>
 </body>
 </html>
