@@ -53,15 +53,15 @@ function showSlides() {
 const clientDepositions=[{
     photo: "./img/index-images/cientista.jpg",
     title: 'Cientista',
-    depo: 'Depoimento ... ... ... ... ... ... ... ... ... ...'
+    depo: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, necessitatibus exercitationem, sed dolores quaerat maxime quasi tempora reprehenderit aut voluptatibus, tenetur quibusdam deleniti dolorum quisquam. Facilis dolorum incidunt aliquam placeat?Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere ducimus eveniet repellendus autem cupiditate necessitatibus alias officiis laudantium perferendis iusto quos delectus praesentium magnam magni, enim debitis culpa suscipit laborum.'
 },{
   photo: "./img/index-images/politico.jpg",
   title: 'Político',
-  depo: 'Depoimento ... ... ... ... ... ... ... ... ... ...'
+  depo: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, necessitatibus exercitationem, sed dolores quaerat maxime quasi tempora reprehenderit aut voluptatibus, tenetur quibusdam deleniti dolorum quisquam. Facilis dolorum incidunt aliquam placeat?Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere ducimus eveniet repellendus autem cupiditate necessitatibus alias officiis laudantium perferendis iusto quos delectus praesentium magnam magni, enim debitis culpa suscipit laborum.'
 },{
     photo: "./img/index-images/empresario.jpg",
     title: 'Empresário',
-    depo: 'Depoimento ... ... ... ... ... ... ... ... ... ...'
+    depo: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, necessitatibus exercitationem, sed dolores quaerat maxime quasi tempora reprehenderit aut voluptatibus, tenetur quibusdam deleniti dolorum quisquam. Facilis dolorum incidunt aliquam placeat?Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere ducimus eveniet repellendus autem cupiditate necessitatibus alias officiis laudantium perferendis iusto quos delectus praesentium magnam magni, enim debitis culpa suscipit laborum.'
 }]
 for(let i = 0; i < clientDepositions.length; i++){
     //creating elements
