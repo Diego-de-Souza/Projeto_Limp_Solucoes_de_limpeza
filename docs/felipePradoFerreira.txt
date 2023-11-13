@@ -19,4 +19,5 @@ Sprint 3
     + Criação do index.css para organização individual do estilo da página;
     + Criação do index-scripts.js para remoção de repetições no código da página index;
     + Correções da página cases.html, sobrenos.html e seus respectivos .css para padronização do projeto;
-    + Estilização da página contato.html.
+    + Estilização da página contato.html;
+    + Criação e aplicação do menu hamburger na navbar, responsividade do header e footer e aplicação deles nas páginas.
