@@ -10,6 +10,7 @@
   padding-bottom: 5vh;
   display: flex;
   justify-content:space-evenly;
+  flex-direction: row;
 }
 .form-title{
   background-color: #458EB8;
@@ -205,4 +206,12 @@ span#spanError{
 }
 .btnFechar:hover{
   cursor: pointer;
+}
+
+@media (max-width:1130px){
+  .form-div{
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 1rem;
+  }
 }
