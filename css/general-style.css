@@ -54,7 +54,7 @@ li, a:link, a:visited{
 /*Header style*/
 
 header {
-    position: fixed;
+    position: absolute;
     width: 100%;
     height: auto;
     padding-bottom: 9px;
