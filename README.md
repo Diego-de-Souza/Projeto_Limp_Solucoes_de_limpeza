@@ -46,4 +46,5 @@ O projeto é dividido em sprints, cada sprint é uma fase do projeto e está pla
         - Uso do github para gestão do projeto
         - Uso do Discord para comunicação da equipe.
     Ao final da sprint
-        - O projeto deve apresentar um design intuitivo, claro e objetivo, pensando na experiência do usuario.
+        - O projeto deve apresentar um design intuitivo, claro e objetivo, pensando na experiência do usuario. 
+
