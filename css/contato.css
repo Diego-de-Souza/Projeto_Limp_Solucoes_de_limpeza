@@ -154,24 +154,33 @@ button {
   border-radius:6px;
 }
 
-span#spanError{
+span#spanError, #spanCorrect{
   display: none;
   flex-direction: column;
-  position: absolute;
+  position: fixed;
   width: 50%;
-  height: 30%;
+  height: fit-content;
   z-index: 999999;
   bottom: 3%;
   left:  20%;
   padding: 2em;
-  border-radius: 2em;
+  border-radius: 6px;
   border: 1.5px solid black;
   box-shadow: 2px 2px 6px black;
-  color: #fff;
+  color: black;
   border-color: rgb(94, 2, 2);
 
-  background-color: rgba(255, 0, 0, 0.849);
+  background-color: #f2f2f2;
 }
+
+#spanError .h4red{
+  color: rgb(201, 30, 30)
+}
+
+#spanCorrect .h4green{
+  color:#17c520;
+}
+
 .centerSpan{
   width: 100%;
   text-align: center;
@@ -180,22 +189,7 @@ span#spanError{
 #btnSpan{
 
 }
-#spanCorrect{
-  display: none;
-  flex-direction: column;
-  position: absolute;
-  width: 50%;
-  z-index: 999999;
-  bottom: 3%;
-  left:  20%;
-  padding: 0.5em  2em 2em 2em;
-  border-radius: 2em;
-  border: 1.5px solid black;
-  box-shadow: 2px 2px 6px black;
-  color: #fff;
 
-  background-color: rgba(51, 0, 255, 0.98);
-}
 .containerBtnFechar{
   display: flex;
   flex-direction: row;
@@ -203,10 +197,10 @@ span#spanError{
 }
 .btnFechar{
   display: flex;
-  border: 1px solid black;
+  border: none;
   width: 1em;
   align-items: center;
-  padding: 0.3em;
+  padding: 0.1em;
   justify-content: center;
   border-radius: 0.5em;
 }
