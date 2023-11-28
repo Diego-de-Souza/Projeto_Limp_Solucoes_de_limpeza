@@ -201,6 +201,23 @@ footer {
     transition: 0.7s;
 }
 
+/*estilização whatsapp*/
+#whatsapp-main{
+  display: block;
+  position: absolute;
+  z-index: 99999;
+  right: 5em;
+  top: 90%;
+}
+#whatsapp-main > a >img{
+  display: block;
+  position: fixed;
+  bottom: 2em;
+  z-index: 99999;
+  width: 64px;
+  height: 64px;
+}
+
 /*Novo style com menu hamburger e responsividade*/
 
 body, ul{
