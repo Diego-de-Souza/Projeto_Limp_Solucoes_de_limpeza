@@ -37,10 +37,11 @@ containerNome.addEventListener('blur', (e)=>{
         usernameInput.classList.remove("correct");
         usernameInput.classList.add("error");
         usernameHelper.innerText = "O nome precisa ser maior de 3 caracteres";
-        usernameHelper.classList.add("visible");
+        usernameHelper.style.display="block";
+        console.log("está funcionando")
     }else{
         usernameInput.classList.add("correct");
-        usernameHelper.classList.remove("visible");
+        usernameHelper.style.display="none";
         usernameInput.classList.remove("error");
         campoUsername=true;
     }
@@ -58,15 +59,15 @@ containerEmail.addEventListener('blur',(e)=>{
     containerEmail.style.backgroundColor="";
     let valor = e.target.value
     if(valor.includes("@") && valor.includes(".com")){
-        emailInput.classList.add("correct")
-        emailInput.classList.remove("error")
-        emailHelper.classList.remove("visible")
+        emailInput.classList.add("correct");
+        emailInput.classList.remove("error");
+        emailHelper.style.display="none";
         campoEmail=true;
     }else{
         emailInput.classList.remove("correct")
         emailInput.classList.add("error")
-        emailHelper.classList.add("visible")
-        emailHelper.innerText = "E-mail inválido!"
+        emailHelper.style.display="block"
+        emailHelper.innerText = "E-mail inválido! Deve conter '@' e o dominio"
     }
 })
 //validação do campo assunto
@@ -79,12 +80,12 @@ containerAssunto.addEventListener('blur', (e)=>{
     if(valorAssunto.length <10){
         assuntoInput.classList.remove("correct")
         assuntoInput.classList.add("error")
-        assuntoHelper.innerText = "O nome precisa ser maior de 10 caracteres"
-        assuntoHelper.classList.add("visible")
+        assuntoHelper.innerText = "O assunto deve ter mais de 9 caracteres"
+        assuntoHelper.style.display="block"
 
     }else{
         assuntoInput.classList.add("correct")
-        assuntoHelper.classList.remove("visible")
+        assuntoHelper.style.display="none"
         assuntoInput.classList.remove("error")
         campoAssunto=true;
     }
@@ -99,12 +100,12 @@ containerMensagem.addEventListener('blur',(e)=>{
     if(valorMensagem.length <10){
         mensagemInput.classList.remove("correct")
         mensagemInput.classList.add("error")
-        mensagemHelper.innerText = "O nome precisa ser maior de 10 caracteres"
-        mensagemHelper.classList.add("visible")
+        mensagemHelper.innerText = "A mensagem precisa ter mais de 9 caracteres"
+        mensagemHelper.style.display="block"
         
     }else{
         mensagemInput.classList.add("correct")
-        mensagemHelper.classList.remove("visible")
+        mensagemHelper.style.display="none"
         mensagemInput.classList.remove("error")
         campoMensagem=true;
     }

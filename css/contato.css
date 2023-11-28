@@ -105,10 +105,6 @@ input.correct {
   color: #206620;
 }
 
-.visible {
-  display: block;
-}
-
 .required-popup::after {
   content: "*Existem campos preenchidos errado";
   position: absolute;
@@ -138,8 +134,20 @@ textarea {
   
 }
 
-.helper-text {
+#username-helper{
   display: none;
+}
+#email-helper{
+  display: none;
+}
+#assunto-helper{
+  display: none;
+}
+#mensagem-helper{
+  display: none;
+}
+
+.helper-text {
   font-size: .8rem;
   color: darkred;
 }
