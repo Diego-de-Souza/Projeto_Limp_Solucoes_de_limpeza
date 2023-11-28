@@ -139,9 +139,20 @@ let btnSpan = document.getElementById('btnSpan');
 const containerSpan = document.getElementById('spanError');
 const containerCorrect = document.getElementById('spanCorrect');
 const btnFechar = document.getElementsByClassName('btnFechar');
+const containerTelefone = document.getElementById('telefone');
 btnSpan.addEventListener('click',()=>{
     containerSpan.style.display = 'none';
+    campoUsername=false; 
+    campoEmail=false;
+    campoAssunto=false; 
+    campoMensagem = false;
+    containerTelefone.value="";
 })
 btnFechar[0].addEventListener('click', ()=>{
     containerCorrect.style.display='none';
+    campoUsername=false; 
+    campoEmail=false;
+    campoAssunto=false; 
+    campoMensagem = false;
+    containerTelefone.value="";
 })
